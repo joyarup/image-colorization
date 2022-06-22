@@ -74,6 +74,7 @@ def lab2rgb(lab):
         RGB[i] = max(RGB[i], 0)
     return RGB
 
+#DRIVER CODE; USE ONE COLOR VECTOR
 
 lab = (rgb2lab([256, 180, 100]))
 print(lab)
